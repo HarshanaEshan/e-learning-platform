@@ -1,0 +1,74 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5rem;
+  overflow: hidden;
+}
+
+.right {
+  margin-top: 5rem;
+}
+
+.left img {
+  margin-left: 15rem;
+  width: 90%;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 4rem;
+}
+
+.login_form input[type='text'] {
+  width: 60%;
+}
+
+.login_form input[type='password'] {
+  width: 60%;
+}
+
+.login_form .btn {
+  width: max-content;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  padding: 1rem;
+  color: var(--color-white);
+  background: var(--color-bg);
+}
+
+table {
+  font-size: 200%;
+  background-color: var(--color-bg1);
+  width: 40%;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-left: 17rem;
+  box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+input.log {
+  width: 300px;
+  height: 40px;
+}
+
+h1 {
+  color: var(--color-white);
+  align-items: center;
+  margin: 5rem;
+  margin-left: -7rem;
+  margin-bottom: 3rem;
+  margin-top: 10rem;
+}
+
+.text {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
